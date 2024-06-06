@@ -20,10 +20,8 @@ export class ReplyCommentModalComponent implements AfterViewInit {
   };
   selectedImage = ''
 
-
   commentMessageInputValue: string = ''
   commentMessageTags: any[];
-  selectedImage = ''
 
   constructor(public activeModal: NgbActiveModal,
     private toastService: ToastService,) {
