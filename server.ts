@@ -78,14 +78,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'PussyVentures.tube',
+          title: 'AmourAngles.tube',
           description:
             'Live Girls! Talk One-on-One Face-to-Face!',
           image:
             'https://video.amourangles.tube/assets/meta.png',
           site: 'https://video.amourangles.tube/',
           url: 'https://video.amourangles.tube' + params,
-          keywords: 'AmourAngles.tube tube',
+          keywords: 'AmourAngles.tube',
         };
         if (
           params.indexOf('channel/') > -1
