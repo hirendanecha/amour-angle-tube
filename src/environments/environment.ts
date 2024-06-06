@@ -1,7 +1,7 @@
-const loginUrl = 'https://amourangles.tube/login';
-const logoutUrl = 'https://amourangles.tube/logout';
-const frontendUrl = 'https://video.amourangles.tube/';
-const backendUrl =  'https://api.amourangles.tube/';
+const loginUrl = 'https://amourangels.tube/login';
+const logoutUrl = 'https://amourangels.tube/logout';
+const frontendUrl = 'https://video.amourangels.tube/';
+const backendUrl =  'https://api.amourangels.tube/';
 
 // const frontendUrl = 'http://localhost:4200/';
 // const backendUrl = 'http://localhost:8080/';
@@ -15,7 +15,7 @@ export const environment = {
   backendUrl: backendUrl,
   loginUrl: loginUrl,
   apiUrl: `${backendUrl}api/v1/`,
-  domain: '.amourangles.tube',
+  domain: '.amourangels.tube',
   wasabiUrl: wasabiUrl,
   socketUrl: `${backendUrl}`,
   conferenceUrl: 'https://facetime.tube/',

@@ -68,7 +68,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       }
     });
     const data = {
-      title: `AmourAngles.tube`,
+      title: `AmourAngels.tube`,
       description: '',
     };
     this.seoService.updateSeoMetaData(data);
@@ -117,7 +117,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
           // localStorage.setItem('channelId', this.channelData.id);
           // console.log(this.channelData);
           const data = {
-            title: `AmourAngles.tube ${this.channelData?.firstname}`,
+            title: `AmourAngels.tube ${this.channelData?.firstname}`,
             url: `${location.href}`,
             description: '',
           };
@@ -138,7 +138,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         if (res.data.length) {
           this.channelData = res.data[0];
           const data = {
-            title: `AmourAngles.tube ${this.channelData.firstname}`,
+            title: `AmourAngels.tube ${this.channelData.firstname}`,
             url: `${location.href}`,
             description: '',
           };

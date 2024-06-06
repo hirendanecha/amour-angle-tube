@@ -147,7 +147,7 @@ export class VideoComponent implements OnInit, OnChanges {
         this.videoDetails = res[0];
 
         const data = {
-          title: `AmourAngles.tube ${this.videoDetails.albumname}`,
+          title: `AmourAngels.tube ${this.videoDetails.albumname}`,
           description: this.videoDetails.postdescription,
         };
         this.seoService.updateSeoMetaData(data);
@@ -645,7 +645,7 @@ export class VideoComponent implements OnInit, OnChanges {
   }
 
   openProfile(Id): void {
-    const url = `https://video.amourangles.tube/channel/${Id}`;
+    const url = `https://video.amourangels.tube/channel/${Id}`;
     window.open(url, '_blank');
   }
 

@@ -17,7 +17,7 @@ const api_url = environment.apiUrl;
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
   const server = express();
-  const distFolder = join(process.cwd(), 'tube-dist/video-amourangles-tube/browser');
+  const distFolder = join(process.cwd(), 'tube-dist/video-amourangels-tube/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html'))
     ? 'index.original.html'
     : 'index';
@@ -26,7 +26,7 @@ export function app(): express.Express {
   const path = require('path');
   const template = fs
     .readFileSync(
-      path.join(join(process.cwd(), 'tube-dist/video-amourangles-tube/browser'), 'index.html')
+      path.join(join(process.cwd(), 'tube-dist/video-amourangels-tube/browser'), 'index.html')
     )
     .toString();
   // Shim for the global window and document objects.
@@ -78,14 +78,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'AmourAngles.tube',
+          title: 'AmourAngels.tube',
           description:
             'Live Girls! Talk One-on-One Face-to-Face!',
           image:
-            'https://video.amourangles.tube/assets/meta.png',
-          site: 'https://video.amourangles.tube/',
-          url: 'https://video.amourangles.tube' + params,
-          keywords: 'AmourAngles.tube',
+            'https://video.amourangels.tube/assets/meta.png',
+          site: 'https://video.amourangels.tube/',
+          url: 'https://video.amourangels.tube' + params,
+          keywords: 'AmourAngels.tube',
         };
         if (
           params.indexOf('channel/') > -1
@@ -126,9 +126,9 @@ export function app(): express.Express {
           const pdhtml = document.createElement('div');
           pdhtml.innerHTML = post?.postdescription || post?.metadescription;
           const talent = {
-            name: post?.title || post?.albumname || 'AmourAngles.tube Post',
+            name: post?.title || post?.albumname || 'AmourAngels.tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.amourangles.tube/assets/meta.png',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.amourangels.tube/assets/meta.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

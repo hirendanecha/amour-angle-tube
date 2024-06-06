@@ -1,5 +1,5 @@
 {
-  "name": "video-amourangles-tube",
+  "name": "video-amourangels-tube",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run video-amourangles-tube:dev-serve-ssr",
-    "serve:ssr": "node tube-dist/video-amourangles-tube/server/main.js",
-    "build:ssr": "ng build && ng run video-amourangles-tube:server",
-    "prerender": "ng run video-amourangles-tube:prerender"
+    "dev:ssr": "ng run video-amourangels-tube:dev-serve-ssr",
+    "serve:ssr": "node tube-dist/video-amourangels-tube/server/main.js",
+    "build:ssr": "ng build && ng run video-amourangels-tube:server",
+    "prerender": "ng run video-amourangels-tube:prerender"
   },
   "private": true,
   "dependencies": {

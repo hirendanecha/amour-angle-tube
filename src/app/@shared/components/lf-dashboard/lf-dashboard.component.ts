@@ -118,7 +118,7 @@ export class LfDashboardComponent implements OnInit {
   }
 
   openProfile(Id): void {
-    const url = `https://amourangles.tube/settings/view-profile/${Id}`;
+    const url = `https://amourangels.tube/settings/view-profile/${Id}`;
     window.open(url, '_blank');
   }
 
