@@ -82,9 +82,9 @@ export function app(): express.Express {
           description:
             'Live Girls! Talk One-on-One Face-to-Face!',
           image:
-            'https://tube.amourangles.tube/assets/meta.png',
-          site: 'https://tube.amourangles.tube/',
-          url: 'https://tube.amourangles.tube' + params,
+            'https://video.amourangles.tube/assets/meta.png',
+          site: 'https://video.amourangles.tube/',
+          url: 'https://video.amourangles.tube' + params,
           keywords: 'AmourAngles.tube tube',
         };
         if (
@@ -128,7 +128,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'AmourAngles.tube Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.amourangles.tube/assets/meta.png',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.amourangles.tube/assets/meta.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

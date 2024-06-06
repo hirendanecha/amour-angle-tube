@@ -645,7 +645,7 @@ export class VideoComponent implements OnInit, OnChanges {
   }
 
   openProfile(Id): void {
-    const url = `https://tube.amourangles.tube/channel/${Id}`;
+    const url = `https://video.amourangles.tube/channel/${Id}`;
     window.open(url, '_blank');
   }
 

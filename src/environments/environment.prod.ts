@@ -1,6 +1,6 @@
 const loginUrl = 'https://amourangles.tube/login';
 const logoutUrl = 'https://amourangles.tube/logout';
-const frontendUrl = 'https://tube.amourangles.tube/';
+const frontendUrl = 'https://video.amourangles.tube/';
 const backendUrl =  'https://api.amourangles.tube/';
 
 // const frontendUrl = 'http://localhost:4200/';
